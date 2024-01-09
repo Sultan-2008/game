@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;  /*text comes in centre*/
+
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.div1{
+    height: 130px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 40%;
+}
+
+/* when curser goes inside the image the change the opacity */
+.div1:hover{
+    /* opacity: 0.2; */
+    background-color: green ;
+    cursor: pointer;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 6rem;
+}
+#p1 , #p2{
+    font-size: 4rem;
+    margin-top: 3rem;
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#p3{
+    font-size: 3rem;
+    background-color: #081b31;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: inline;
+
+}
+
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 600px) {
+    .div {
+        flex-direction: column;
+    }
+
+    .div1 {
+        margin-bottom: 1rem;
+    }
+
+    .div2 {
+        gap: 0.5rem;
+    }
+}
+
+
+
+/* Add this CSS code to your existing CSS file */
+
+.div4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #081b31;
+    color: white;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+
+body{
+    background-color: rgba(200, 50, 100, 0.5);
+}
